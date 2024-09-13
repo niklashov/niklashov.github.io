@@ -1,0 +1,427 @@
+/* hoved */
+header {
+    position: sticky;
+    margin: -2em;
+    top: -1px;
+    z-index: 100;
+}
+h1,h2,h3,h4,h5,h6 {
+    color:#FFD700;
+}
+main {
+    padding: 4em;
+    background-color:  #11112a;
+
+}
+footer {
+    margin: -2em;
+}
+header, footer {
+    background-color: #242323;
+}
+ html{
+    text-align: center;
+    box-sizing: border-box;
+    background-color:  #11112a;
+}
+
+a{
+    color:#a95b0e
+}
+ p, ol, ul, li, .om-meg, pre, .form1, .form2, table {
+    color:#ffbf00;
+}
+.ii{
+    width: 300px;
+    border-radius: 10%;
+    border-style: solid;
+}
+tr, th, thead, tbody, td {
+    border-style:inset;
+    background-color: rgb(29, 27, 39);
+    border-color: #a95b0e;
+    border-radius: 3px;
+    border-width: 3px;
+}
+.cc{
+    color:#a95b0e;
+}
+ul, ol {
+    list-style-position: inside;
+    padding: 1%;
+}
+table {
+    margin: auto;
+}
+a:hover {
+    color: red;
+}
+.musikk {
+    visibility: hidden;
+}
+.bilde{
+    width: 300px;
+    border: #a95b0e;
+    border-radius: 5%;
+    border-style: solid;
+}
+.robert {
+    position: absolute;
+    left: 42em;
+    top: 62em;
+    color: yellowgreen;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+
+.title {
+    font-family: 'my soul', cursive;
+    font-size:2rem;
+}
+main, nav, aside, footer, pre {
+    font-family: sans-serif;
+}
+.pre1 {
+    position: absolute;
+    right: 51.5em;
+    top: 45em;
+}
+iframe {
+    padding: 10rem;
+}
+/* navigasjon */
+.sticky {
+    display:grid;
+    grid-template-columns: repeat(4, 2fr 2fr 2fr 2fr);
+    gap: 1em;
+    padding: 0em;
+    list-style-type: none;
+}
+.nav1 {
+    position: relative;
+    margin: 0.1;
+    top: 1.6em;
+    left: 42em;
+}
+.nav2 {
+    position: relative;
+    margin: 0.1;
+    top: 0.4em;
+    left: 53em;
+}
+.nav3 {
+    position: relative;
+    margin: 0.1;
+    bottom: 0.9em;
+    left: 65em;
+}
+.nav4 {
+    position: relative;
+    margin: 0.1;
+    bottom: 2em;
+    left: 75em;
+/* navigasjon spill side */
+}
+.nav5 {
+    position: absolute;
+    left: 48em;
+    bottom: -77em;
+}
+.nav6 {
+    position: absolute;
+    left: 52em;
+    bottom: -77em;
+}
+.nav7 {
+    position: absolute;
+    left: 58em;
+    bottom: -77em;
+}
+.nav8 {
+    position: absolute;
+    left: 63em;
+    bottom: -77em;
+}
+/* navigasjon index side */
+.nav9 {
+    position: absolute;
+    left: 48em;
+    bottom: -22em;
+}
+.nav10 {
+    position: absolute;
+    left: 52em;
+    bottom: -22em;
+}
+.nav11 {
+    position: absolute;
+    left: 58em;
+    bottom: -22em;
+}
+.nav12 {
+    position: absolute;
+    left: 63em;
+    bottom: -22em;
+}
+/* navigasjon logginn side */
+.nav13 {
+    position: absolute;
+    left: 48em;
+    bottom: -23em;
+}
+.nav14 {
+    position: absolute;
+    left: 52em;
+    bottom: -23em;
+}
+.nav15 {
+    position: absolute;
+    left: 58em;
+    bottom: -23em;
+}
+.nav16 {
+    position: absolute;
+    left: 63em;
+    bottom: -23em;
+}
+/* navigasjon video side */
+.nav17 {
+    position: absolute;
+    left: 48em;
+    bottom: -15em;
+}
+.nav18 {
+    position: absolute;
+    left: 52em;
+    bottom: -15em;
+}
+.nav19 {
+    position: absolute;
+    left: 58em;
+    bottom: -15em;
+}
+.nav20 {
+    position: absolute;
+    left: 63rem;
+    bottom: -15rem;
+}
+/* innlogg og registrering */
+.form1 {
+    margin: auto;
+    width: 300px;
+    height: 77px;
+    border: 1px solid #ccc; 
+    padding: 10px;
+}
+.form2 {
+    margin: auto;
+    width: 400px;
+    height: 550px;
+    border: 1px solid #ccc;
+}
+.username1 {
+    position:relative;
+    left: -1em;
+}
+.password1 {
+    position: absolute;
+    left: 50.4em;
+    bottom: 33.5em;
+}
+.username2 {
+    position: relative;
+    left: 0em;
+}
+.password2 {
+    position: absolute;
+    left: 67.8em;
+    bottom: 40em;
+}
+.submit1 {
+    position: absolute;
+    left: 67.8em;
+    bottom: 38em;
+}
+/* registrering */
+.email1 {
+    position: absolute;
+    left: 47.5em;
+    top: 29.7em;
+}
+.email2 {
+    position: absolute;
+    right: 57em;
+    top: 35.8em;
+}
+
+.phone1 {
+    position: absolute;
+    left: 47.5em;
+    top: 31.3em;
+}
+.phone2 {
+    position: absolute;
+    right: 57em;
+    top: 37.9em;
+}
+
+.firstname1 {
+    position: absolute;
+    left: 47.5em;
+    top: 32.9em;
+}
+.firstname2 {
+    position: absolute;
+    right: 57em;
+    top: 39.8em;
+}
+
+.surname1 {
+    position: absolute;
+    left: 47.5em;
+    top: 34.5em;
+}
+.surname2 {
+    position: absolute;
+    right: 57em;
+    top: 41.8em;
+}
+
+.username3 {
+    position: absolute;
+    left: 47.5em;
+    top: 36.5rem;
+}
+.username4 {
+    position: absolute;
+    right: 57em;
+    top: 43.8em;
+}
+
+.password3 {
+    position: absolute;
+    left: 47.5em;
+    top: 38.2em;
+}
+.password4 {
+    position: absolute;
+    right: 57em;
+    top: 45.8em;
+}
+
+.password5 {
+    position: absolute;
+    left: 47.5em;
+    top: 40em;
+}
+.password6 {
+    position: absolute;
+    right: 57em;
+    top: 48em;
+}
+
+/* fødtsel */
+.day1 {
+    position: absolute;
+    left: 55em;
+    top: 42em;
+}
+
+.day2 {
+    position: absolute;
+    right: 68.9em;
+    top: 50.5em;
+}
+
+.month1 {
+    position: absolute;
+    left: 55em;
+    top: 44em;
+}
+.month2 {
+    position: absolute;
+    right: 68em;
+    top: 52.7em;
+}
+
+.year1 {
+    position: absolute;
+    left: 55em;
+    top: 46em;
+}
+.year2 {
+    position: absolute;
+    right: 68.8em;
+    top: 55.2em;
+}
+
+.gender1 {
+    position: absolute;
+    left: 55em;
+    top: 47em;
+}
+.gender2 {
+    position: absolute;
+    right: 69em;
+    top: 57.7em;
+}
+
+/* personvern */
+.personvern1 {
+    position: absolute;
+    left: 52em;
+    top: 49em;
+}
+
+.personvern2 {
+    position: absolute;
+    left: 55.5em;
+    top: 52em;
+}
+.personvern3 {
+    position: absolute;
+    right: 68.6em;
+    top: 62.55em;
+}
+
+.personvern4 {
+    position: absolute;
+    left: 55.5em;
+    top: 54em;
+}
+.personvern5 {
+    position: absolute;
+    right: 68.6em;
+    top: 64.9em;
+}
+/* send nyhet */
+.nyhet1 {
+    position: absolute;
+    left: 47.5em;
+    top: 56em;
+}
+.nyhet2 {
+    position: absolute;
+    left: 56.6em;
+    top: 59.5em;
+}
+.nyhet3 {
+    position: absolute;
+    right: 67.8em;
+    top: 71.5em;
+}
+.nyhet4 {
+    position: absolute;
+    left: 59.6em;
+    top: 59.5em;
+}
+.nyhet5 {
+    position: absolute;
+    right: 71.9em;
+    top: 71.5em;
+}
+.submit2 {
+    position: absolute;
+    right: 68em;
+    top: 74em;
+}
